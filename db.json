@@ -1,0 +1,18 @@
+{
+  "customers": [
+    {
+      "name": "afzal",
+      "address": "121 street Delhi",
+      "phone": "9234156171",
+      "membership": "Platinum",
+      "id": 1
+    },
+    {
+      "name": "John",
+      "phone": "1245781245",
+      "address": "1/2 street",
+      "membership": "Basic",
+      "id": 3
+    }
+  ]
+}

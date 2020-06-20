@@ -1,0 +1,24 @@
+<h3>Add Customer</h3>
+
+
+  <form [formGroup]="customerForm" (submit)="createCustomer()" class="form-inline mb-4">
+    <div class="input-group">
+      <input type="text" class="form-control" formControlName="name" placeholder="name">
+    </div>
+
+    <div class="input-group">
+      <input type="text" class="form-control" formControlName="phone" placeholder="Phone">
+    </div>
+
+    <div class="input-group">
+      <input type="text" class="form-control" formControlName="address" placeholder="Address">
+    </div>
+    <div class="input-group ">
+      <select formControlName="membership" class="form-control">
+        <option>Basic</option>
+        <option>Pro</option>
+        <option>Platinum</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Customer</button>
+  </form>
